@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello", "Hi", "Hey", "Good morning", "Good afternoon",
+        "Good evening", "Howdy", "What's up", "Greetings", "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Great to see you. How can I assist?",
+        "Greetings! What's on your mind?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "See you", "Talk to you later",
+        "I have to go", "Take care", "Catch you later", "Farewell"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day!",
+        "See you later! Take care!",
+        "Bye! It was great talking with you!",
+        "Farewell! Come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Thanks a lot",
+        "Many thanks", "Much appreciated", "Cheers", "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else.",
+        "Glad I could assist!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?", "What should I call you?", "Who are you?",
+        "Do you have a name?", "Tell me your name", "What are you called?"
+      ],
+      "responses": [
+        "I'm PyBot, your friendly assistant!",
+        "You can call me PyBot.",
+        "My name is PyBot. Nice to meet you!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help", "Can you help me?", "I need help", "What can you do?",
+        "How can you help?", "What are your capabilities?", "I need assistance"
+      ],
+      "responses": [
+        "I'm here to chat and help with general questions. Ask me anything!",
+        "I can answer questions, have conversations, and help with various topics. What do you need?",
+        "Sure! I'm happy to help. What's your question?"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke", "Say something funny", "Make me laugh",
+        "Do you know any jokes?", "Give me a joke"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you call a fish with no eyes? A fsh!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?", "What is your age?", "When were you created?",
+        "Are you new?", "How long have you existed?"
+      ],
+      "responses": [
+        "I'm ageless — just a friendly bot!",
+        "I was just created, so I'm pretty new here!",
+        "Age is just a number for a bot like me!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What is the weather like?", "Is it raining?", "Tell me the weather",
+        "How is the weather today?", "What's the forecast?"
+      ],
+      "responses": [
+        "I'm not connected to weather services, but I hope it's sunny for you!",
+        "I can't check live weather, but a quick search should help!",
+        "I wish I could tell you, but I don't have access to real-time data."
+      ]
+    }
+  ]
+}
